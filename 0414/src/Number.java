@@ -10,7 +10,7 @@ public class Number {
 		int brknum = sc.nextInt();//#맞출 숫자 입력
 		
 		for (int i=0; i<10; i++){
-			 num[i]=(int)(Math.random()*50+1);//#1~50의 수 랜덤으로 
+			 num[i]=(int)(Math.random()*50+1);//#1~50의 수 랜덤으로 입력 받음
 			 System.out.print(num[i]+" ");	
 		}
 		System.out.println();
