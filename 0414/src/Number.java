@@ -3,21 +3,21 @@ public class Number {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.println("10°³ÀÇ ·£´ı ¼ıÀÚ Áß ÇÏ³ª¸¦ ¸ÂÃçº¸¼¼¿ä(1~50±îÁö):");
-		Scanner sc = new Scanner (System.in);
-		int []num = new int[10];
+		System.out.println("10ê°œì˜ ëœë¤ ìˆ«ì ì¤‘ í•˜ë‚˜ë¥¼ ë§ì¶°ë³´ì„¸ìš”(1~50ê¹Œì§€):");//#1~50ê¹Œì§€ì˜ ë‹¨ì–´ë¥¼ ì…ë ¥í•˜ê³  10ê°œì˜ ìˆ«ìì¤‘ í•˜ë‚˜ë¥¼ ë§ì¶¤
+		Scanner sc = new Scanner (System.in);//#scannerë¥¼ ì„ ì–¸
+		int []num = new int[10];//#0~9ë¥¼ ê°€ì§„ int ë°°ì—´
 		
-		int brknum = sc.nextInt();
+		int brknum = sc.nextInt();//#ë§ì¶œ ìˆ«ì ì…ë ¥
 		
 		for (int i=0; i<10; i++){
-			 num[i]=(int)(Math.random()*50+1);
+			 num[i]=(int)(Math.random()*50+1);//#1~50ì˜ ìˆ˜ ëœë¤ìœ¼ë¡œ 
 			 System.out.print(num[i]+" ");	
 		}
 		System.out.println();
 		
 		for(int a=0; a<10; a++){
 			if(num[a] == brknum) {
-				System.out.println("´çÃ·! ¼ıÀÚ°¡ ÀÏÄ¡ÇÕ´Ï´Ù.");
+				System.out.println("ë‹¹ì²¨! ìˆ«ìê°€ ì¼ì¹˜í•©ë‹ˆë‹¤.");
 			}
 			
 			
